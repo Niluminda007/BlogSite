@@ -1,0 +1,25 @@
+<%- include("partials/header"); -%>
+
+<h1>Compose</h1>
+
+<div class="jumbotron">
+  <form method="post">
+  <div class="form-group">
+    <label for="exampleFormControlInput1">Title</label>
+    <input type="text" id="exampleFormControlInput1" class="form-control" name="story">
+  </div>
+
+
+  <div class="form-group">
+    <label for="exampleFormControlTextarea1">Post</label>
+    <textarea class="form-control" id="exampleFormControlTextarea1" name="storybody" rows="4"></textarea>
+  </div>
+  <button type="submit" class="btn btn-lg btn-primary" name="button">Publish</button>
+</form>
+</div>
+
+
+
+
+
+<%- include("partials/footer") -%>
